@@ -1,0 +1,86 @@
+body,html{
+			margin: 0;
+			padding: 0;
+		}
+		*{
+			box-sizing: border-box;
+		}
+		.kutu1{
+			margin: auto;
+			width: 860px;
+			height: 600px;
+			border: 2px solid black;
+			border-radius: 250px 10px 250px 10px;
+			margin-top: 200px;
+			background-image: linear-gradient(#E80C71,#F20CE9,#390CE8) ;
+			text-shadow: 1px 1px;
+		}
+		.kutu1:hover{
+			background-image: url(resim1.jpg);
+		}
+		.yuvarlak1{
+			width: 120px;
+			height: 120px;
+			border: 1px solid black;
+			border-radius: 150px 150px 150px 150px;
+			margin-top: 240px;
+			margin-left: 15px;
+			box-shadow: 1px 1px 10px 8px green;
+		}
+		.yuvarlak2{
+			width: 120px;
+			height: 120px;
+			border: 1px solid black;
+			border-radius: 150px 150px 150px 150px;
+			margin-top: -120px;
+			margin-left: 153px;
+			box-shadow: 1px 1px 10px 8px green;
+
+		}
+		.yuvarlak3{
+			width: 120px;
+			height: 120px;
+			border: 1px solid black;
+			border-radius: 150px 150px 150px 150px;
+			margin-top: -120px;
+			margin-left: 290px;
+			box-shadow: 1px 1px 10px 8px green;
+		}
+		.yuvarlak4{
+			width: 120px;
+			height: 120px;
+			border: 1px solid black;
+			border-radius: 150px 150px 150px 150px;
+			margin-top: -120px;
+			margin-left: 430px;
+			box-shadow: 1px 1px 10px 8px green;
+		}
+		.yuvarlak5{
+			width: 120px;
+			height: 120px;
+			border: 1px solid black;
+			border-radius: 150px 150px 150px 150px;
+			margin-top: -120px;
+			margin-left: 570px;
+			box-shadow: 1px 1px 10px 8px green;
+		}
+		.yuvarlak6{
+			width: 120px;
+			height: 120px;
+			border: 1px solid black;
+			border-radius: 150px 150px 150px 150px;
+			margin-top:-120px;
+			margin-left: 710px;
+			box-shadow: 1px 1px 10px 8px green;
+		}
+		p{
+			margin-top: 40px;
+			margin-left: 38px;
+			margin-right: 50px;
+		}
+		p:hover{
+			color: #277EE3;
+		}
+		.yuvarlak1:hover, .yuvarlak2:hover, .yuvarlak3:hover, .yuvarlak4:hover, .yuvarlak5:hover, .yuvarlak6:hover{
+			box-shadow: 10px 10px 25px red
+		}
